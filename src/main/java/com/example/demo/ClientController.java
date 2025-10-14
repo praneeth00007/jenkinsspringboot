@@ -20,6 +20,10 @@ public class ClientController
 		return "testing for a purpose";
 	}
 	
+	@GetMapping("/isdone")
+	public String done() {
+		return "Yes done";
+	}
 	
 
 }
