@@ -24,6 +24,11 @@ public class ClientController
 	public String done() {
 		return "Yes nooo done";
 	}
+
+	@GetMapping("/isjenkins")
+	public String isdone(){
+		return "ofcourse";
+	}
 	
 
 }
