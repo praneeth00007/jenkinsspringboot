@@ -22,7 +22,7 @@ public class ClientController
 	
 	@GetMapping("/isdone")
 	public String done() {
-		return "Yes done";
+		return "Yes nooo done";
 	}
 	
 
